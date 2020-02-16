@@ -1,6 +1,40 @@
 
 This shows a simple example of the use of useState and useEffect hooks.
 
+resource would be similiar to
+
+const { resource ) = this.state;
+
+Array destructing when we return useState it's going to return an array with two elements inside of it.
+
+const [resource, setResource] = useState('posts')
+
+![](img/hook.PNG)
+
+In basic terms this is similiar to doing
+const colors = ['red', 'green']
+
+const myColorOne = colors[0]
+const myColorTwo = colors[1]
+
+myColorOne // red
+myColorTwo // green
+
+To get these values in a single line of code you would use array destructing so we could write out
+
+const [myColorThree, myColorFour] = colors
+
+myColorThree // red
+myColorFour // green
+
+
+
+
+
+
+
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
