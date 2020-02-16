@@ -1,3 +1,8 @@
+
+This shows a simple example of the use of useState and useEffect hooks.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
